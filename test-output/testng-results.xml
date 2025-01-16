@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-16T15:09:58 IST" name="Test Cycle" finished-at="2025-01-16T15:09:58 IST" duration-ms="87">
+    <groups>
+      <group name="sanity">
+        <method signature="PrameterDemo.grouptest()[pri:0, instance:com.prameterise.PrameterDemo@fa4c865]" name="grouptest" class="com.prameterise.PrameterDemo"/>
+        <method signature="PrameterDemo.grouptest3()[pri:0, instance:com.prameterise.PrameterDemo@fa4c865]" name="grouptest3" class="com.prameterise.PrameterDemo"/>
+        <method signature="PrameterDemo.grouptest31()[pri:0, instance:com.prameterise.PrameterDemo@fa4c865]" name="grouptest31" class="com.prameterise.PrameterDemo"/>
+        <method signature="PrameterDemo.timeoutdemo()[pri:0, instance:com.prameterise.PrameterDemo@fa4c865]" name="timeoutdemo" class="com.prameterise.PrameterDemo"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-01-16T15:09:58 IST" name="Regression" finished-at="2025-01-16T15:09:58 IST" duration-ms="87">
+      <class name="com.prameterise.PrameterDemo">
+        <test-method signature="grouptest()[pri:0, instance:com.prameterise.PrameterDemo@fa4c865]" started-at="2025-01-16T15:09:58 IST" name="grouptest" finished-at="2025-01-16T15:09:58 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grouptest -->
+        <test-method signature="grouptest3()[pri:0, instance:com.prameterise.PrameterDemo@fa4c865]" started-at="2025-01-16T15:09:58 IST" name="grouptest3" finished-at="2025-01-16T15:09:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grouptest3 -->
+        <test-method signature="grouptest3()[pri:0, instance:com.prameterise.PrameterDemo@fa4c865]" started-at="2025-01-16T15:09:58 IST" name="grouptest3" finished-at="2025-01-16T15:09:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grouptest3 -->
+        <test-method signature="grouptest3()[pri:0, instance:com.prameterise.PrameterDemo@fa4c865]" started-at="2025-01-16T15:09:58 IST" name="grouptest3" finished-at="2025-01-16T15:09:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grouptest3 -->
+        <test-method signature="timeoutdemo()[pri:0, instance:com.prameterise.PrameterDemo@fa4c865]" started-at="2025-01-16T15:09:58 IST" name="timeoutdemo" finished-at="2025-01-16T15:09:58 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeoutdemo -->
+        <test-method signature="grouptest31()[pri:0, instance:com.prameterise.PrameterDemo@fa4c865]" started-at="2025-01-16T15:09:58 IST" name="grouptest31" finished-at="2025-01-16T15:09:58 IST" depends-on-methods="com.prameterise.PrameterDemo.grouptest3" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grouptest31 -->
+      </class> <!-- com.prameterise.PrameterDemo -->
+    </test> <!-- Regression -->
+  </suite> <!-- Test Cycle -->
+</testng-results>
